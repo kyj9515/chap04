@@ -12,6 +12,7 @@ public class EpochTimeExample {
 			if (epoch - daysOfYear*24*60*60 >= 0) {
 				epoch = epoch - daysOfYear*24*60*60;
 				year++;
+				continue;
 			} else
 				break;
 				
